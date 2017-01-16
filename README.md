@@ -5,7 +5,9 @@ Reads a file with one url per line and it will download consecutively all files 
 
 # Usage
 Arguments:
+
 1. filename of url list
+
 2. dirname to download to
 
 > py -3 bulk.py bulklist.txt targetdir
