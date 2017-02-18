@@ -10,4 +10,4 @@ Arguments:
 
 2. name of targetdir to download to
 
-> py -3 bulk.py bulklist.txt targetdir
+> py -3 bulk.py \<bulk-link-list.txt> \<targetdir>
