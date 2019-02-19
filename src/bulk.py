@@ -31,7 +31,7 @@ if len(sys.argv) == 3:
 			print("file " + str(currentline) + "/" + str(linecount))
 			url = line.split("\n")[0]
 			file = line.split("/")
-			file = (file[len(file)-1].split("\n"))[0]
+			file = (file[len(file)-1].split("\n"))[0].split("?")[0]
 
 			print("Downloading... '" + file + "' from '" + url + "'")
 			try:
