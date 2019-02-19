@@ -45,7 +45,7 @@ if len(sys.argv) == 3:
 				else:
 					print("Skipping: " + file)
 					skippedfiles.append(file)
-			except urllib.error.HTTPError as err:
+			except:
 				print("Skipping: " + file)
 				skippedfiles.append(file)
 	print("\n\n**********************************\n")
